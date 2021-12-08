@@ -1,0 +1,40 @@
+#+TITLE: TODOs
+
+* IN PROGRESS Targets
+
+** Figure out how to switch compilers
+
+** Figure out how to set debug and release mode / flags
+
+*** debug mode  -DDEBUG -g + all sanitizers
+
+*** release mode: -O2 -march=native or something
+
+** Have a target for each binary that runs the compiled binary
+
+*** debug mode: --break --success --use-colour yes
+
+*** release mode: --success --use-colour yes
+    
+* Full spacemacs integration
+
+** clangd, compile database, clang-tidy, clang-format
+
+* code sanitizers
+
+* debugger
+
+* asm view
+
+* Utility library
+
+** DONE Hello world
+   CLOSED: [2021-12-03 Fri 01:39]
+
+** TODO Linked Lists (single, double)
+
+** TODO Trees
+
+* DONE catch2 based test(s) and benchmark(s) for every problem
+  CLOSED: [2021-12-03 Fri 02:19]
+
