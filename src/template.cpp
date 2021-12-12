@@ -5,9 +5,6 @@
 
 #include <common/one.h>
 
-// Normally your code would go here but we just included our hello_world dummy
-// library for this template.
-
 TEST_CASE("common::one()") {
 
   REQUIRE(common::one() == 1);
